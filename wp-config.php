@@ -57,7 +57,7 @@ define('DB_PASSWORD', $conn['Password']);
 /** Azure hostname */
 define('DB_HOST', $conn['Data Source']);
 
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 /**#@+
